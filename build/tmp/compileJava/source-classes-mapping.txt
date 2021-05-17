@@ -1,5 +1,5 @@
-aula2/Suppliers.java
- aula2.Suppliers
+aula2/Consumidores.java
+ aula2.Consumidores
 aula2/Interacoes.java
  aula2.Interacoes
 aula2/FuncaoAltaOrdem.java
@@ -9,5 +9,6 @@ aula2/Funcoes.java
  aula2.Funcoes
 aula2/Predicados.java
  aula2.Predicados
-aula2/Consumidores.java
- aula2.Consumidores
+aula2/Suppliers.java
+ aula2.Pessoa
+ aula2.Suplidores
