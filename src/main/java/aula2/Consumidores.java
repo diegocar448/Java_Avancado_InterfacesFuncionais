@@ -9,8 +9,9 @@ public class Consumidores {
         // - apenas
         // - utilizar o parâmetro da forma que ele foi recebido
 
-        //Consumer<String> imprimirUmaFrase = System.out::println;
-        Consumer<String> imprimirUmaFrase = frase -> System.out.println(frase);
+        Consumer<String> imprimirUmaFrase = System.out::println;
+        Consumer<String> imprimirUmaFrase2 = frase -> System.out.println(frase);
+
         imprimirUmaFrase.accept("WhatsUp");
 
     }
