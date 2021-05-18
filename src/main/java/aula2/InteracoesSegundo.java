@@ -1,5 +1,7 @@
 package aula2;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -8,7 +10,19 @@ class InteracoesSegundo {
         String[] nomes = {"Joao", "Joao", "Paulo", "Oliveira", "Santos", "Instrutor", "Java"};
         Integer[] numeros = {1,2,3,4,5};
         //ImprimirNomesFiltrados(nomes);
-        imprimirTodosNomes(nomes);
+        //imprimirTodosNomes(nomes);
+        //imprimirODobroDeCadaItemDaLista(numeros);
+
+
+        List<String> profissoes = new ArrayList<>();
+        profissoes.add("Desenvolvedor");
+        profissoes.add("Testador");
+        profissoes.add("Gerente de Projeto");
+        profissoes.add("Gerente de Qualidade");
+
+        profissoes.stream()
+                .filter(profissao -> profissao.startsWith("Gerente"))
+                .forEach(System.out::println);
     }
 
     public static void ImprimirNomesFiltrados(String... nomes){
@@ -36,10 +50,17 @@ class InteracoesSegundo {
         Stream.of(nomes)
                 .forEach(nome -> System.out.println("Imprimido pelo forEach: " + nome));
     }
-
+    /* usando o ...  ===  []*/
     public static void imprimirODobroDeCadaItemDaLista(Integer... numeros){
+        //Imperativo
         for (Integer numero: numeros){
             System.out.println(numero*2);
         }
+
+        /*Funcional menos performance*/
+        //Funcional
+        Stream.of(numeros)
+                .map(numero -> numero * 2)
+                .forEach(System.out::println);
     }
 }
