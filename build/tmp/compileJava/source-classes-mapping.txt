@@ -2,8 +2,12 @@ aula2/Consumidores.java
  aula2.Consumidores
 aula2/Interacoes.java
  aula2.Interacoes
-aula3/FutureExemplo.java
- aula3.FutureExemplo
+aula3/ThreadExemplo.java
+ aula3.BarraDeCarregamento
+ aula3.BarraDeCarregamento2
+ aula3.BarraDeCarregamento3
+ aula3.GeradorPDF
+ aula3.ThreadExemplo
 aula2/FuncaoAltaOrdem.java
  aula2.Calculo
  aula2.FuncaoAltaOrdem
@@ -16,9 +20,9 @@ aula2/Predicados.java
 aula2/Suppliers.java
  aula2.Pessoa
  aula2.Suplidores
-aula3/ThreadExemplo.java
- aula3.BarraDeCarregamento
- aula3.BarraDeCarregamento2
- aula3.BarraDeCarregamento3
- aula3.GeradorPDF
- aula3.ThreadExemplo
+aula3/FutureExemplo.java
+ aula3.Atividade
+ aula3.Casa
+ aula3.Comodo
+ aula3.FutureExemplo
+ aula3.Quarto
