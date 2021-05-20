@@ -26,3 +26,5 @@ aula3/FutureExemplo.java
  aula3.Comodo
  aula3.FutureExemplo
  aula3.Quarto
+aula3/ParaleloStreamExemplo.java
+ aula3.ParaleloStreamExemplo
